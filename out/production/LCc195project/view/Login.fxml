@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="205.0" prefWidth="282.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <TextField fx:id="usernameText" layoutX="118.0" layoutY="56.0" prefHeight="25.0" prefWidth="113.0" />
+      <Label fx:id="usernameLabel" layoutX="16.0" layoutY="60.0" text="Username" />
+      <Label fx:id="passwordLabel" layoutX="16.0" layoutY="93.0" text="Password" />
+      <Label fx:id="countryDescriptorLabel" layoutX="16.0" layoutY="121.0" text="TimeZone" />
+      <Label fx:id="countryLabel" layoutX="118.0" layoutY="121.0" text="country" />
+      <Label fx:id="titleLabel" layoutX="25.0" layoutY="16.0" text="Scheduling Desktop Application">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="115.0" layoutY="160.0" mnemonicParsing="false" onAction="#onActionLogin" text="Login" />
+      <PasswordField fx:id="passwordText" layoutX="118.0" layoutY="89.0" prefHeight="25.0" prefWidth="113.0" />
+   </children>
+</AnchorPane>

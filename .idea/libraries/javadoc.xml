@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LCc195project/javadoc/package-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LCc195project/javadoc/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/LCc195project/javadoc/type-search-index.zip!/" />
+      <root url="file://$PROJECT_DIR$/../javafx-sdk-18.0.1/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../javafx-sdk-18.0.1/lib" recursive="false" />
+  </library>
+</component>
